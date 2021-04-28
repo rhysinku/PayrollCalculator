@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PayrollCalculator.Page1">
+    <ContentPage.Content>
+        <StackLayout Padding="10,100,10,0">
+
+            <StackLayout Orientation="Vertical" Margin="0,20,20,0">
+            <Label Text="Gross" HorizontalOptions="Center" FontSize="50" FontAttributes="Bold"/>
+                <Label x:Name="gross" HorizontalOptions="Center" FontSize="30" FontAttributes="Italic" TextDecorations="Underline"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Margin="0,20,20,0">
+                <Label Text=" Deduction" HorizontalOptions="Center" FontSize="50" FontAttributes="Bold"/>
+                <Label x:Name="deduction" HorizontalOptions="Center" FontSize="30" FontAttributes="Italic" TextDecorations="Underline"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Margin="0,20,20,0">
+                <Label Text="Net" HorizontalOptions="Center" FontSize="50" FontAttributes="Bold"/>
+            <Label x:Name="net" HorizontalOptions="Center" FontSize="30" FontAttributes="Italic" TextDecorations="Underline"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

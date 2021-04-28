@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollCalculator.Android", "PayrollCalculator.Android\PayrollCalculator.Android.csproj", "{628212E6-F6A4-470D-90F4-F07314EBA845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollCalculator", "PayrollCalculator\PayrollCalculator.csproj", "{F302932A-06D8-4508-BDFB-439222E28615}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{628212E6-F6A4-470D-90F4-F07314EBA845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628212E6-F6A4-470D-90F4-F07314EBA845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628212E6-F6A4-470D-90F4-F07314EBA845}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{628212E6-F6A4-470D-90F4-F07314EBA845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628212E6-F6A4-470D-90F4-F07314EBA845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628212E6-F6A4-470D-90F4-F07314EBA845}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F302932A-06D8-4508-BDFB-439222E28615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F302932A-06D8-4508-BDFB-439222E28615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F302932A-06D8-4508-BDFB-439222E28615}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F302932A-06D8-4508-BDFB-439222E28615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F302932A-06D8-4508-BDFB-439222E28615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F302932A-06D8-4508-BDFB-439222E28615}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10AB16AA-78D5-46AF-8D32-3CEDD62E9465}
+	EndGlobalSection
+EndGlobal
